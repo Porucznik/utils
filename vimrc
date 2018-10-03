@@ -17,6 +17,10 @@ runtime! archlinux.vim
 " do not load defaults if ~/.vimrc is missing
 "let skip_defaults_vim=1
 
+"Fix colours
+set background=dark
+"Show matching brackets
+set showmatch
 " Tab config
 set expandtab
 set tabstop=4
